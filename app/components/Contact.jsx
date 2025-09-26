@@ -26,7 +26,7 @@ export default function Contact() {
               </div>
               <div>
                 <h2 className="py-2">Vijaykumar Vyakaranal</h2>
-                <p className="">Front-End Developer</p>
+                <p className="py-3">Junior Front-End Developer</p>
                 <p className="py-4 ">
                   Iam available for freelance or full-time positions. Contact me
                   let's talk
