@@ -44,7 +44,7 @@ export default function Navbar() {
             <li className="ml-10 text-sm uppercase hover:border-b">
               {/* Use a standard <a> tag with the download attribute */}
               <a href="/resume.pdf" download="Vijay_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                Download Resume
+                 Resume
               </a>
             </li>
           </ul>
