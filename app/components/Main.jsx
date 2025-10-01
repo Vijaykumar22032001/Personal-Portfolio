@@ -27,19 +27,48 @@ export default function Main() {
             modern frontend frameworks.
           </p>
 
-          <div className="flex items-center justify-between max-w-[320px] m-auto py-4 ">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-point hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-point hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-point hover:scale-110 ease-in duration-300">
-              <FaEnvelope />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-point hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div>
+          {/* Social Media Links */}
+          <div className="flex items-center justify-center gap-6 m-auto py-4">
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/vijaykumar-vyakaranal-40769325b/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+            </a>
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/Vijaykumar22032001"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </div>
+            </a>
+
+            {/* Email */}
+            <a href="mailto:vijaykumar.vyakaranal@gmail.com">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaEnvelope />
+              </div>
+            </a>
+
+            {/* Resume */}
+            <a
+              href="/resume.pdf"
+              download="Vijay_Kumar_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill />
+              </div>
+            </a>
           </div>
         </div>
       </div>
